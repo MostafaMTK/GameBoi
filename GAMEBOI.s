@@ -1164,6 +1164,10 @@ BranchUpBoundary
 	ADD R4, R7, #10
 	LDR R5, =WHITE
 	BL TFT_DrawRect
+	MOV R1,#314
+	MOV R2,#315
+	LDR R5, =BACKGROUND
+	BL TFT_DrawRect
 
 SkipRedrawBoundary
 	
@@ -1303,7 +1307,7 @@ PONG_DrawBoundaries
     BL TFT_DrawRect
     
     ; Draw right boundary
-    MOV R1, #314          ; x1 = 314
+    MOV R1, #315          ; x1 = 314
     MOV R2, #319          ; x2 = 319
     MOV R3, #0            ; y1 = 0
     MOV R4, #399          ; y2 = 399
@@ -1438,6 +1442,8 @@ PONG_NewGame
 	LDR R3,=PongPhOTO
 	BL TFT_DrawImage
 	
+	BL PONG_DrawBoundaries
+
 	POP{R1-R5, LR}
 	BX LR
 
