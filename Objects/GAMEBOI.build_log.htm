@@ -1,0 +1,93 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: µVision V5.42.0.0
+Copyright (C) 2025 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: Mostafa Mohammed, Cairo University Faculty of Engineering, LIC=TA30W-9EYMJ-RGHM6-WWQE1-YXSRG-4LU79
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Professional  Version: 5.42.0.0
+Toolchain Path:  E:\Micro\Keil\Keil_v5\ARM\ARMCLANG\Bin
+C Compiler:      ArmClang.exe V6.23
+Assembler:       Armasm.exe V6.23
+Linker/Locator:  ArmLink.exe V6.23
+Library Manager: ArmAr.exe V6.23
+Hex Converter:   FromElf.exe V6.23
+CPU DLL:         SARMCM3.DLL V5.42.0.0
+Dialog DLL:      DCM.DLL V1.17.5.0
+Target DLL:      STLink\ST-LINKIII-KEIL_SWO.dll V3.3.0.0
+Dialog DLL:      TCM.DLL V1.56.6.0
+ 
+<h2>Project:</h2>
+E:\Micro\Keil\Projects\GAMEBOI\GAMEBOI.uvprojx
+Project File Date:  05/11/2025
+
+<h2>Output:</h2>
+*** Using Compiler 'V6.23', folder: 'E:\Micro\Keil\Keil_v5\ARM\ARMCLANG\Bin'
+Build target 'Target_1'
+armclang: warning: Your license for feature Keil will expire in 8 days [-Wlicense-management]
+"GAMEBOI.s", line 219: Warning: A1581W: Added 2 bytes of padding at address 0xa6
+  219 000000a8  LTORG
+"GAMEBOI.s", line 258: Warning: A1581W: Added 2 bytes of padding at address 0x11e
+  258 00000120  LTORG
+"GAMEBOI.s", line 934: Warning: A1581W: Added 2 bytes of padding at address 0x7de
+  934 000007e0  LTORG
+"GAMEBOI.s", line 1067: Warning: A1581W: Added 2 bytes of padding at address 0x926
+ 1067 00000928  LTORG
+"GAMEBOI.s", line 1592: Warning: A1581W: Added 2 bytes of padding at address 0xdaa
+ 1592 00000dac  LTORG
+"GAMEBOI.s", line 1699: Warning: A1581W: Added 2 bytes of padding at address 0xebe
+ 1699 00000ec0  LTORG
+"GAMEBOI.s", line 1781: Warning: A1581W: Added 2 bytes of padding at address 0xf8a
+ 1781 00000f8c  LTORG
+"GAMEBOI.s", line 2268: Warning: A1581W: Added 2 bytes of padding at address 0x13aa
+ 2268 000013ac  LTORG
+"GAMEBOI.s", line 2548: Warning: A1581W: Added 2 bytes of padding at address 0x15fa
+ 2548 000015fc  LTORG
+"GAMEBOI.s", line 2895: Warning: A1581W: Added 2 bytes of padding at address 0x181e
+ 2895 00001820     END
+0 Errors, 10 Warnings
+armclang: warning: Your license for feature Keil will expire in 8 days [-Wlicense-management]
+assembling GAMEBOI.s...
+linking...
+Program Size: Code=6272 RO-data=229528 RW-data=36 ZI-data=1536  
+FromELF: creating hex file...
+.\Objects\GAMEBOI.hex: Warning: Q9931W: Your license for feature Keil will expire in 8 days
+Finished: 0 information, 1 warning and 0 error messages.
+".\Objects\GAMEBOI.axf" - 0 Error(s), 2 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                https://www.keil.com/pack/ARM.CMSIS.6.1.0.pack
+                ARM::CMSIS@6.1.0
+                CMSIS (Common Microcontroller Software Interface Standard)
+   * Component: CORE Version: 6.1.0
+
+Package Vendor: Keil
+                https://www.keil.com/pack/Keil.STM32F4xx_DFP.2.17.1.pack
+                Keil::STM32F4xx_DFP@2.17.1
+                STMicroelectronics STM32F4 Series Device Support, Drivers and Examples
+   * Component: Startup Version: 2.6.3
+
+<h2>Collection of Component include folders:</h2>
+  ./RTE/_Target_1
+  E:/Micro/Keil/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include
+  E:/Micro/Keil/Arm/Packs/Keil/STM32F4xx_DFP/2.17.1/Drivers/CMSIS/Device/ST/STM32F4xx/Include
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE@6.1.0
+
+   * Component: Keil::Device:Startup@2.6.3
+      Source file:   MDK/Device/Source/ARM/STM32F4xx_OTP.s
+      Source file:   MDK/Device/Source/ARM/STM32F401xx_OPT.s
+      Source file:   Drivers/CMSIS/Device/ST/STM32F4xx/Source/Templates/arm/startup_stm32f401xc.s
+      Include file:  Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h
+      Source file:   Drivers/CMSIS/Device/ST/STM32F4xx/Source/Templates/system_stm32f4xx.c
+Build Time Elapsed:  00:00:01
+</pre>
+</body>
+</html>
