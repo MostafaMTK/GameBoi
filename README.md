@@ -47,7 +47,7 @@ GameBOI is a retro-style game console built from scratch as a course project at 
 - Mostafa Mohammed
 - Muslim Ahmed
 - Ahmed Maged
-- Mariam Muhammed
+- Mariam Mohammed
 - Mariam Sameh
 - Anne Omer
 - Alaa Tarek
